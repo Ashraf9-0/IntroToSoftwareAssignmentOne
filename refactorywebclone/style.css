@@ -1,0 +1,236 @@
+header {
+   
+    padding: 10px 30px;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+}
+
+.button-link {
+    text-decoration: none;
+    color: white;
+}
+
+.partner-btn {
+    background-color: #6B2D8F;
+    /* color: white; */
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 13px;
+}
+
+.explore-btn {
+    background-color: #C0FF33;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 13px;
+}
+
+.hire-btn {
+    background-color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 13px;
+}
+
+#hire-btn {
+    color: #663367;
+}
+.learnmore-butt {
+    background-color: #C0FF33;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 140px;
+    font-size: 13px;
+}
+
+.hero-section {
+    text-align: center;
+    color: white;
+}
+
+.hero-heading {
+    font-size: 50px;
+}
+
+.hero-p {
+    font-size: 25px;
+}
+
+.content-heading {
+    color: #6B2D8F;
+    font-size: 32px;
+}
+
+.sec-content-heading {
+    color: #00BFA5;
+    font-size: 24px;
+}
+.content-par1 {
+    color: darkgrey;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+.content-par2 {
+    color: darkgrey;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+/*2 column grid layout for about refactory section*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;;
+   
+}
+
+.grid-item {
+  padding:60px;
+  background-color: #ffffff;
+  border: none ;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+.grid-item {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+/* NAV LIST */
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;              /* SPACE BETWEEN WORDS */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* LOGO */
+.logo {
+    margin-right: auto;    /* pushes links to the right */
+}
+
+/* LINKS */
+.nav-links {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+/* DROPDOWN */
+.dropdown {
+    position: relative;
+}
+
+/* DROPDOWN CONTENT */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    padding: 8px 0;
+}
+
+/* DROPDOWN LINKS */
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* SHOW DROPDOWN ON HOVER */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* search icon */
+.search-icon {
+    margin-left: 0px; 
+    background-color: #c6c628;
+    padding: 15px;  /* pushes icon to far right */
+    border-radius: 500px 500px 500px 500px;
+}
+
+.search-icon a {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.search-icon a:hover {
+    color: white;
+}
+
+.background {
+    background-image: url('https://refactory.academy/wp-content/uploads/2025/08/Safeguarding-Training-190.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    min-height: 140vh;
+}
+
+.nav-links i {
+    font-size: 10px;
+    margin-left: 5px;
+    color: white;
+}
+
+.hero-section i {
+    color: white;
+}
+
+.hire-btn i {
+    color: black;
+}
+/* footer section */
+.footer {
+  display: flex;i
+  justify-content:; 
+  padding: 20px;
+  background-color: #2C1A4D;
+  color: white;
+}
+
+.footer-column {
+  flex: 1; 
+  padding: 10px;
+  background-color: #382261;
+  border-radius: 5px;
+  margin: 0 10px; 
+}
